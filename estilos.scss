@@ -102,7 +102,7 @@ footer{
 }
 
 .img1{
-background-image: url(/multimedia/imagenes_pez/pez_111-Photoroom.png-Photoroom.png);
+background-image: url(/preentrega3_juan_luman/multimedia/imagenes_pez/pez_111-Photoroom.png-Photoroom.png);
 background-size:cover;
 height:400px;
 background-repeat: no-repeat;
@@ -113,7 +113,7 @@ margin-bottom: 50px;
 }
 .img2{
     @extend.img1;
-    background-image: url(/multimedia/imagenes_pez/pez_1_600.png);
+    background-image: url(/preentrega3_juan_luman/multimedia/imagenes_pez/pez_1_600.png);
     }
 
 .carousel-inner{
@@ -126,7 +126,9 @@ margin-bottom: 50px;
 }
 .carousel-item{
     img{
-        height: 300px;
+        height: auto;
+        width: 100%;
+
     }
 }
 //peces
@@ -143,38 +145,38 @@ margin-bottom: 50px;
     &.imagenpeces1{
         background-size: 80%;
         background-repeat: no-repeat;
-        background-image: url(/multimedia/imagenesPeces_peceras/pez_1.jpg);
+        background-image: url(/preentrega3_juan_luman/multimedia/imagenesPeces_peceras/pez_1.jpg);
     }
         
     
     &.imagenpeces2{
         @extend .imagenpeces1;
         animation-duration: 4s;
-        background-image: url(/multimedia/imagenesPeces_peceras/pez_2.jpg);
+        background-image: url(/preentrega3_juan_luman/multimedia/imagenesPeces_peceras/pez_2.jpg);
     }
     &.imagenpeces3{
         @extend .imagenpeces1;
-        background-image: url(/multimedia/imagenesPeces_peceras/plantas_10.jpg);
+        background-image: url(/preentrega3_juan_luman/multimedia/imagenesPeces_peceras/plantas_10.jpg);
     }
     &.imagenpeces4{
         @extend .imagenpeces1;
-        background-image: url(/multimedia/imagenesPeces_peceras/plantas_8.jpg);
+        background-image: url(/preentrega3_juan_luman/multimedia/imagenesPeces_peceras/plantas_8.jpg);
     }
     &.imagenpeces5{
         @extend .imagenpeces1;
-        background-image: url(/multimedia/imagenesPeces_peceras/pez_3.jpg);
+        background-image: url(/preentrega3_juan_luman/multimedia/imagenesPeces_peceras/pez_3.jpg);
     }
     &.imagenpeces6{
         @extend .imagenpeces1;
-        background-image: url(/multimedia/imagenesPeces_peceras/pez_4.jpg);
+        background-image: url(/preentrega3_juan_luman/multimedia/imagenesPeces_peceras/pez_4.jpg);
     }
     &.imagenpeces7{
         @extend .imagenpeces1;
-        background-image: url(/multimedia/imagenesPeces_peceras/pez_5.jpg);
+        background-image: url(/preentrega3_juan_luman/multimedia/imagenesPeces_peceras/pez_5.jpg);
     }
     &.imagenpeces8{
         @extend .imagenpeces1;
-        background-image: url(/multimedia/imagenesPeces_peceras/pez_6.jpg);
+        background-image: url(/preentrega3_juan_luman/multimedia/imagenesPeces_peceras/pez_6.jpg);
     }
 }
 .itempeces:hover{
@@ -209,22 +211,22 @@ margin-bottom: 50px;
     transform: scale(1.09);
 }
 .peceras1{
-    background-image: url(/multimedia/imagenesPeces_peceras/pecera_2.jpg);
+    background-image: url(/preentrega3_juan_luman/multimedia/imagenesPeces_peceras/pecera_2.jpg);
     height: $tamaño3; 
 }
 .peceras3{
     @extend .peceras1;
-    background-image: url(/multimedia/imagenesPeces_peceras/plantas_1.jpg);
+    background-image: url(/preentrega3_juan_luman/multimedia/imagenesPeces_peceras/plantas_1.jpg);
     
 }
 .peceras5{
     @extend .peceras1;
-    background-image: url(/multimedia/imagenesPeces_peceras/plantas_17.jpg);
+    background-image: url(/preentrega3_juan_luman/multimedia/imagenesPeces_peceras/plantas_17.jpg);
     
 }
 .peceras7{
     @extend .peceras1;
-    background-image: url(/multimedia/imagenesPeces_peceras/pecera_1.jpg);
+    background-image: url(/preentrega3_juan_luman/multimedia/imagenesPeces_peceras/pecera_1.jpg);
     
 }
 //sucursales
